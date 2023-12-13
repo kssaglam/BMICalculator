@@ -4,7 +4,7 @@ window = Tk()
 window.title("BMI Calculator")
 window.config(padx=20, pady=20)
 window.minsize(width=150, height=250)
-char_list = ["0","1","2","3","4","5","6","7","8","9"]
+
 def calculator():
     user_weight = weight_entry.get()
     user_height = height_entry.get()
